@@ -18,7 +18,8 @@ function Search({ hideButtons = false }) {
         //dispatch the  action 
         dispatch({
             type: actionTypes.SET_SEARCH_TERM,
-            term: input
+            term: input //dispatch an action to redirects to the search page 
+            //return an object 
         })
     }
     return (
