@@ -4,15 +4,22 @@ import MicIcon from '@material-ui/icons/Mic';
 import SearchIcon from '@material-ui/icons/Search'
 import { Button } from "@material-ui/core"
 import { useHistory } from 'react-router';
+import { actionTypes } from "../context/reducer"
+import { useStateValue } from "../context/StateProvider"
 
 function Search({ hideButtons = false }) {
     const [input, setInput] = useState('');
     const history = useHistory();
+    const [{ }, dispatch] = useStateValue();
     const search = e => {
         e.preventDefault();
         // console.log("tap in enter", input );
         history.push('/search') // pour aller  dans la page search 
-
+        //dispatch the  action 
+        dispatch({
+            type: actionTypes.SET_SEARCH_TERM,
+            term: input
+        })
     }
     return (
         <form className="search">
