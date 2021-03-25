@@ -1,18 +1,26 @@
 import React from 'react'
 import './Home.css'
+import { Link } from "react-router-dom";
 import MicIcon from '@material-ui/icons/Mic';
+
 function Home() {
   return (
     <div>
-      <h1>This is the home page </h1>
+
 
       <div className="home__header">
 
         <div className="home__headerLeft">
           {/* Link */}
-          {/* Link */}
+          <Link to="/about">About</Link>
+          <Link to="/store">Store</Link>
+
         </div>
-        <div className="home__headerRight"></div>
+        <div className="home__headerRight">
+          <Link to="/gmail">Gmail</Link>
+          {/* Link */}
+          <Link to="/images">Images</Link>
+        </div>
         {/* Link */}
         {/* Link */}
         {/* Icon*/}
