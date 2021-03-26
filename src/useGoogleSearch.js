@@ -14,10 +14,10 @@ const useGoogleSearch = term => {
           setData(results);
         });
     };
-    setData();
+    fetchApi();
   }, [term]);
 
-  return { data };
+  return { data }; // this is return an object !!
 };
 
 export default useGoogleSearch;
