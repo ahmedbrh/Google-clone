@@ -78,9 +78,9 @@ function SearchPageRes() {
 
                 <div className="searchPage__resultCount"><p> Environ {data?.searchInformation.formattedTotalResults} résultats ({data?.searchInformation.formattedSearchTime} secondes) pour {term} </p>
                     {data?.items.map(item => (<div className="searchPage__result">
-                        <a className="searchPageLink" href={item.link}> {item.pagemap?.cse_image?.length > 0 && item.pagemap?.cse_image[0]?.src && (<img className="searchPageImage" src={item.pagemap?.cse_image[0]?.src} />)}
+                        <a className="searchPageLink" href={item.link} target="_blank"> {item.pagemap?.cse_image?.length > 0 && item.pagemap?.cse_image[0]?.src && (<img className="searchPageImage" src={item.pagemap?.cse_image[0]?.src} />)}
                             {item.displayLink} ▷</a>
-                        <a className="searchPage__resultTitle" href={item.link}>
+                        <a className="searchPage__resultTitle" href={item.link} target="_blank" >
                             <h2>{item.title}</h2>
                         </a>
                         <p className="SearchPage__resultSnippet">{item.snippet}</p>
