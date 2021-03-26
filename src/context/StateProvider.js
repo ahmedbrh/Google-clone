@@ -8,5 +8,5 @@ export const StateProvider = ({ reducer, initialState, children }) => (
     {children}
   </StateContext.Provider>
 );
-// hook which allows us to pull information from the data layer
+// hook which allows us to pull information from the data layer:
 export const useStateValue = () => useContext(StateContext);

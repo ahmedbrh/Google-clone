@@ -8,6 +8,7 @@ import { actionTypes } from "../context/reducer"
 import { useStateValue } from "../context/StateProvider"
 
 function Search({ hideButtons = false }) {
+    // to hide buttons j'ai la chance  
     const [input, setInput] = useState('');
     const history = useHistory();
     const [{ }, dispatch] = useStateValue();
@@ -49,4 +50,4 @@ function Search({ hideButtons = false }) {
     )
 }
 
-export default Search
+export default Search;
