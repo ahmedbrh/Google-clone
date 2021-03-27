@@ -39,10 +39,7 @@ function SearchPageRes() {
                                 <SearchIcon />
                                 <Link to="/all" > Tous </Link>
                             </div>
-                            <div className="searchPage__option">
-                                <DescriptionIcon />
-                                <Link to="/news" > News </Link>
-                            </div>
+
                             <div className="searchPage__option">
                                 <ImageIcon />
                                 <Link to="/news" > Images </Link>
@@ -55,6 +52,11 @@ function SearchPageRes() {
                             <div className="searchPage__option">
                                 <RoomIcon />
                                 <Link to="/maps" > maps </Link>
+                            </div>
+
+                            <div className="searchPage__option">
+                                <DescriptionIcon />
+                                <Link to="/news" > Actualités </Link>
                             </div>
                             <div className="searchPage__option">
                                 <MoreVertIcon />

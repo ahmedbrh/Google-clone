@@ -41,7 +41,11 @@ function Home() {
 
           <Search />
         </div>
+
       </div>
+      <div className="home__text"><p>Code disponible sur <a href="https://github.com/ahmedbrh/Google-clone-Using-API" target="_blank">Github</a> </p></div>
+      <div className="home__textfooter"><p>2021-Template developped by <a href="https://www.linkedin.com/in/ahmed-brhili/" target="_blank">Ahmed Brhili</a>- just for fun !  <br /> -Build with - <a href="https://fr.reactjs.org/" target="_blank">React </a> </p></div>
+
     </div>
 
 

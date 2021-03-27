@@ -42,3 +42,24 @@
   object-fit: contain;
   height: 100px;
 }
+
+.home__text {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 9rem;
+  font-size: 14px;
+}
+.home__textfooter {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #9a8d94;
+  font-size: 15px;
+  margin-bottom: 1%;
+}
+
+.home__textfooter a:hover {
+  color: blue;
+  transition: 0.3s ease-out;
+}

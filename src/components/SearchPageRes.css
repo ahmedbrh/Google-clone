@@ -53,6 +53,7 @@
 
 .searchPage__result {
   margin: 40px 0;
+  font-size: 15px;
   /* font-family: sans-serif; */
 }
 .searchPage__resultCount {
@@ -64,7 +65,7 @@
   max-width: 650px;
   margin-top: 20px;
   margin-left: 230px;
-  margin-bottom: 100px;
+  margin-bottom: px;
 }
 
 .searchPage__resultTitle {
