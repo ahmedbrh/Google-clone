@@ -48,3 +48,7 @@
 .search__buttonsHidden {
   display: none !important;
 }
+
+input::placeholder {
+  color: rgba(121, 121, 121, 0.582);
+}

@@ -18,9 +18,10 @@ function Home() {
 
         </div>
         <div className="home__headerRight">
-          <Link to="/gmail">Gmail</Link>
+          <a href="https://myaccount.google.com/profile">Gmail</a>
+
           {/* Link */}
-          <Link to="/images">Images</Link>
+          <a href="https://images.google.fr/">Images</a>
 
 
           {/* Icon*/}

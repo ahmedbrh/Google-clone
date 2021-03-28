@@ -71,7 +71,7 @@
 .searchPage__resultTitle {
   text-decoration: none;
   color: #1a0dab;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
 }
 
 .searchPage__resultTitle h2 {
